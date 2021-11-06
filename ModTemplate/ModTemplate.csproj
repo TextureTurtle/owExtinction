@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,40 +46,43 @@
       <HintPath>$(GameDir)\OuterWilds_Data\Managed\Mono.Security.dll</HintPath>
     </Reference>
     <Reference Include="NAudio-Unity, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\NAudio-Unity.dll</HintPath>
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\NAudio-Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\Users\Space\OneDrive\Desktop\Decompiled Outer Wilds\Compiled\OuterWilds_Data\Managed\netstandard.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Json.Net.Unity3D.9.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="OWML, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.dll</HintPath>
-    </Reference>
     <Reference Include="OWML.Abstractions">
       <HintPath>..\..\..\Decompiled Outer Wilds\Compiled\OuterWilds_Data\Managed\OWML.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="OWML.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.Common.dll</HintPath>
+    <Reference Include="OWML.Common, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.Common.dll</HintPath>
     </Reference>
-    <Reference Include="OWML.Logging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.Logging.dll</HintPath>
+    <Reference Include="OWML.Logging, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="OWML.ModHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.ModHelper.dll</HintPath>
+    <Reference Include="OWML.ModHelper, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.ModHelper.dll</HintPath>
     </Reference>
-    <Reference Include="OWML.ModHelper.Assets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.ModHelper.Assets.dll</HintPath>
+    <Reference Include="OWML.ModHelper.Assets, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.ModHelper.Assets.dll</HintPath>
     </Reference>
-    <Reference Include="OWML.ModHelper.Events, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.ModHelper.Events.dll</HintPath>
+    <Reference Include="OWML.ModHelper.Events, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.ModHelper.Events.dll</HintPath>
     </Reference>
-    <Reference Include="OWML.ModHelper.Input, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.ModHelper.Input.dll</HintPath>
+    <Reference Include="OWML.ModHelper.Input, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.ModHelper.Input.dll</HintPath>
     </Reference>
-    <Reference Include="OWML.ModHelper.Interaction, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.ModHelper.Interaction.dll</HintPath>
+    <Reference Include="OWML.ModHelper.Interaction, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.ModHelper.Interaction.dll</HintPath>
     </Reference>
-    <Reference Include="OWML.ModHelper.Menus, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OWML.0.7.3\lib\net35\OWML.ModHelper.Menus.dll</HintPath>
+    <Reference Include="OWML.ModHelper.Menus, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.ModHelper.Menus.dll</HintPath>
+    </Reference>
+    <Reference Include="OWML.Utils, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OWML.2.1.0\lib\net40\OWML.Utils.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -85,9 +90,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Unity.ResourceManager">
-      <HintPath>..\..\Users\Space\OneDrive\Desktop\Decompiled Outer Wilds\Compiled\OuterWilds_Data\Managed\Unity.ResourceManager.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>$(GameDir)\OuterWilds_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
@@ -237,15 +239,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GamepadSplashImage.png">
+    <None Include="GamepadSplashImage.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Main.mp3">
+    </None>
+    <None Include="Main.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="MENU_OWE_d.png">
+    </None>
+    <None Include="MENU_OWE_d.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
@@ -258,4 +260,11 @@
       copy /y "$(ProjectDir)\manifest.json" "$(OwmlDir)\Mods\$(ModUniqueName)"
     </PostBuildEvent>
   </PropertyGroup>
+  <Import Project="..\packages\NETStandard.Library.2.0.0\build\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.0\build\NETStandard.Library.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.0\build\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.0\build\NETStandard.Library.targets'))" />
+  </Target>
 </Project>
